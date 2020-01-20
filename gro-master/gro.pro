@@ -93,7 +93,7 @@ macx {
         LIBS += -L../ccl_Debug/ -lccl -L ../CellEngine/build/mac/debug -lcellengine -L../cellsignals/build/mac/debug -lsignals -L../CellNutrient/build/mac/debug -lcellnutrient -L../CellPro/build/mac/debug -lcellpro -L../uint256_t-master/build/mac/debug -luint_256
         PRE_TARGETDEPS += ../ccl_Debug/libccl.a
   } else {
-        LIBS += -L../ccl_Release/ -lccl -L ../CellEngine/build/mac/release -lcellengine -L../cellsignals/build/mac/release -lsignals -L../CellNutrient/build/mac/release -lcellnutrient -L../CellPro/build/mac/release -lcellpro -L../uint256_t-master/build/mac/realese -luint_256
+        LIBS += -L../ccl_Release/ -lccl -L ../CellEngine/build/mac/release -lcellengine -L../cellsignals/build/mac/release -lsignals -L../CellNutrient/build/mac/release -lcellnutrient -L../CellPro/build/mac/release -lcellpro -L../uint256_t-master/build/mac/release -luint_256
         PRE_TARGETDEPS += ../ccl_Release/libccl.a
   }
 
